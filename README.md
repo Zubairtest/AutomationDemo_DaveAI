@@ -1,8 +1,17 @@
-# 🧪 API Testing Project — Reqres API (apitesting_daveai.py)
 
-This project contains automated API test cases using **Python**, **Pytest**, and **Requests** to test the publicly available [Reqres API](https://reqres.in/). It demonstrates how to validate successful responses, response content, and error handling.
+## ✅ Project Objectives
+-**Web UI testing**
+- Open the DaveAI homepage and verify the title
+- Click the **Book Demo** button
+- Fill and submit the **contact/demo request form**
+- Validate elements using waits and assertions
 
----
+**--API testing**
+--Validate successful response
+--Validate Error Handling
+--Validate Success status
+--Validate login password
+
 
 ## ✅ Requirements
 
@@ -28,19 +37,6 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 This project uses **Selenium WebDriver** with **Pytest** to automate and test key user flows on the [DaveAI](https://www.iamdave.ai) website.
 
 ---
-
-## ✅ Project Objectives
--Web UI testing
-- Open the DaveAI homepage and verify the title
-- Click the **Book Demo** button
-- Fill and submit the **contact/demo request form**
-- Validate elements using waits and assertions
-
---API testing
---Validate successful response
---Validate Error Handling
---Validate Success status
---Validate login password
 
 ---
 
